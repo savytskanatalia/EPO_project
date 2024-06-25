@@ -1,0 +1,1 @@
+nextflow run nf-core/smrnaseq --input /mnt/md0/natalia/EPO/raw_data/smallRNA/merged/smallRNA_samplesheet.csv -profile docker --fasta /mnt/md0/natalia/EPO/GRCm39.primary_assembly.genome.fa --mirtrace_species mmu --save_aligned true --outdir results --with-umi false
